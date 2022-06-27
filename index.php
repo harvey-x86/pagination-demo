@@ -11,7 +11,7 @@
         <table>
             <tr><th>Full Name</th><th>Email Address</th></tr>
             <?php
-                $connection = new mysqli("92.204.220.200", "AdminHarvey", "c9Ry53#]8&$%\$a", "hvycmb");
+                $connection = new mysqli("", "", "", "");
                 
                 $q = $connection -> query("SELECT fullname, email FROM ash_test LIMIT 2 OFFSET {$curPage}");
                 
